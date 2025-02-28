@@ -5,7 +5,7 @@
         type="text"
         id="name"
         v-model="userName"
-        class="w-full px-3 py-4 bg-[#F7F7F7] border border-[#EFEFEF] text-sm rounded-md outline-none"
+        class="w-full px-3 py-4 bg-[#F7F7F7] border border-[#EFEFEF] rounded-md outline-none"
         placeholder="Full Name *"
         required
       />
@@ -18,7 +18,7 @@
           v-bind="bindProps"
           required
           :class="[
-            'vti-parent py-3 border !border-[#EFEFEF] text-sm !rounded-md !bg-transparent !outline-none focus-within:!shadow-none',
+            'vti-parent py-3 border !border-[#EFEFEF] !rounded-md !bg-transparent !outline-none focus-within:!shadow-none',
             errors.includes('phone') && phoneFocus
               ? 'focus-within:!border-red-500'
               : '',
@@ -34,7 +34,7 @@
         type="email"
         id="email"
         v-model="userEmail"
-        class="w-full px-3 py-4 bg-[#F7F7F7] border border-[#EFEFEF] text-sm rounded-md outline-none"
+        class="w-full px-3 py-4 bg-[#F7F7F7] border border-[#EFEFEF] rounded-md outline-none"
         placeholder="E-mail"
       />
     </div>
