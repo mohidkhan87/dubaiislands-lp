@@ -5,7 +5,7 @@ const useAppStore = defineStore("appStore",()=>{
     const isEmailForm = ref<Boolean>(false);
     const isAutoPopupModal = ref<Boolean>(false);
     const formPosition = ref('left')
-    const preference = ref('4 BR Townhouse')
+    const preference = ref('1 BR Apartment')
     const isFormSubmitted = ref<Boolean>(false);
     const showAutoPopup = ref<Boolean>(true);
 

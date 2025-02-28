@@ -14,7 +14,7 @@
           <h3
             class="text-black text-2xl xl:text-4xl 2xl:text-5xl font-semibold w-full lg:w-[60%]"
           >
-            Why Invest in Properties at DAMAC Islands?
+            Why Invest in Properties at Dubai Islands?
           </h3>
           <div
             class="text-[#64697A] text-lg xl:text-xl 2xl:text-4xl font-medium w-full lg:w-[60%] xl:w-[80%]"
@@ -24,7 +24,7 @@
           </div>
         </div>
           <div
-            @click="openContactForm('Why invest Damac', true)"
+            @click="openContactForm('Why invest Dubai', true)"
             class="shine hidden lg:flex items-center gap-3 2xl:gap-6 bg-black text-white rounded-full py-2 pl-2 pr-12 2xl:py-3 2xl:pr-16 text-xl 2xl:text-3xl font-medium mt-3 cursor-pointer"
           >
             <div
@@ -32,7 +32,7 @@
             >
               <IconArrowRight class="size-7" />
             </div>
-            <span>Explore More</span>
+            <span>Learn More</span>
           </div>
         </div>
         <div
@@ -51,10 +51,10 @@
             </p>
           </div>
           <div
-            @click="openContactForm('Why invest Damac', true)"
+            @click="openContactForm('Why invest Dubai', true)"
             class="shine lg:hidden w-64 bg-black rounded-full text-center py-3 font-medium mt-3 cursor-pointer"
           >
-            Explore More
+          Learn More
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@ const { openContactForm } = appStore;
 
 const benefits = [
   "Golden Visa for Property Purchase Over AED 2M",
-  "Damac Fly In program",
+  "Dubai Fly In program",
   "Easy Connectivity Across the Emirate",
   "Tax-Free Investment",
   "Hassle-Free Ownership For Home Buyers"

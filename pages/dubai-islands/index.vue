@@ -1,15 +1,23 @@
 <template>
   <main class="flex flex-col gap-10 md:gap-20">
+    <h1 class="sr-only">Dubai Islands Luxury Waterfront Living</h1>
     <div>
       <Header />
       <Sales />
       <IntroSection />
     </div>
-    <PriceList />
+    <!-- <PriceList /> -->
     <PropertiesSection />
-    <VideoSection />
+    <!-- <VideoSection /> -->
+    <div>
+      <img
+        src="/images/Youtube.webp"
+        alt="hotel image"
+        class="w-full h-[calc(100vh-200px)] object-cover object-bottom"
+      />   
+    </div>
     <Amenities />
-    <FloorPlans />
+    <!-- <FloorPlans /> -->
     <Location />
     <div>
       <WhyInvest />
@@ -29,19 +37,19 @@ import { onMounted, watch } from "vue";
 import useAppStore from "~/stores/AppStore";
 
 useHead({
-  title: "Damac Islands",
+  title: "Dubai Islands – Luxury Waterfront Living with Premium Amenities",
   meta: [
     {
       property: "og:title",
-      content: "Damac Islands",
+      content: "Dubai Islands – Luxury Waterfront Living with Premium Amenities",
     },
     {
       name: "description",
-      content: "DAMAC Islands redefines tropical living in Dubai, inspired by Maldives, Bora Bora, and Bali. Luxury villas and townhouses overlook serene lagoons and lush greenery, blending urban sophistication with paradise. ",
+      content: "Discover Dubai Islands by Prime Developer, a stunning waterfront development with premium beachfront residences, world-class amenities, and seamless access to Dubai’s key landmarks.",
     },
     {
       name:"title",
-      content: "Damac Islands",
+      content: "Dubai Islands – Luxury Waterfront Living with Premium Amenities",
     },
   ],
   link: [

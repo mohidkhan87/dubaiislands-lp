@@ -5,13 +5,13 @@
       <div class="flex flex-col justify-center gap-4">
         <div class="cursor-pointer h-[250px] rounded-3xl overflow-hidden">
           <img
-            src="../../../public/images/gallery/image 1.jpg"
+            src="../../../public/images/gallery/image 1.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
         <div class="cursor-pointer h-[320px] rounded-3xl overflow-hidden">
           <img
-            src="../../../public/images/gallery/image 2.webp"
+            src="../../../public/images/gallery/image 2.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
@@ -20,19 +20,19 @@
       <div class="flex flex-col justify-center gap-4">
         <div class="cursor-pointer h-[320px] rounded-3xl overflow-hidden">
           <img
-            src="../../../public/images/gallery/image 3.webp"
+            src="../../../public/images/gallery/image 3.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
         <div class="cursor-pointer h-[320px] rounded-3xl overflow-hidden">
           <img
-            src="../../../public/images/gallery/image 4.jpg"
+            src="../../../public/images/gallery/image 4.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
         <div class="cursor-pointer h-[200px] rounded-3xl overflow-hidden">
           <img
-            src="../../../public/images/gallery/image 5.jpg"
+            src="../../../public/images/gallery/image 5.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
@@ -41,13 +41,13 @@
       <div class="flex flex-col justify-center gap-4">
         <div class="cursor-pointer h-[320px] rounded-3xl overflow-hidden">
           <img
-            src="../../../public/images/gallery/image 6.jpg"
+            src="../../../public/images/gallery/image 6.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
         <div class="cursor-pointer h-[320px] rounded-3xl overflow-hidden">
           <img
-            src="../../../public/images/gallery/image 7.webp"
+            src="../../../public/images/gallery/image 7.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
@@ -62,7 +62,7 @@
             >
               <IconArrowRight class="size-7" />
             </div>
-            <span>Explore More</span>
+            <span>Learn More</span>
           </a>
         </div>
       </div>
@@ -70,19 +70,19 @@
       <div class="flex flex-col justify-center gap-4">
         <div class="cursor-pointer h-[320px] rounded-3xl overflow-hidden">
           <img
-            src="../../../public/images/gallery/image 8.webp"
+            src="../../../public/images/gallery/image 8.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
         <div class="cursor-pointer h-[250px] rounded-3xl overflow-hidden">
           <img
-            src="../../../public/images/gallery/image 9.jpg"
+            src="../../../public/images/gallery/image 9.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
         <div class="cursor-pointer h-[320px] rounded-3xl overflow-hidden">
           <img
-            src="../../../public/images/gallery/image 10.webp"
+            src="../../../public/images/gallery/image 10.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
@@ -91,13 +91,13 @@
       <div class="flex flex-col justify-center gap-4">
         <div class="cursor-pointer h-[320px] rounded-3xl overflow-hidden">
           <img
-            src="../../../public/images/gallery/image 11.jpg"
+            src="../../../public/images/gallery/image 11.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
         <div class="cursor-pointer h-[250px] rounded-3xl overflow-hidden">
           <img
-            src="../../../public/images/gallery/image 12.jpg"
+            src="../../../public/images/gallery/image 12.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>

@@ -4,7 +4,7 @@
       ref="mapRef"
       :api-key="runtimeConfig.mapKey"
       mapContainerClassName="googleMaps"
-      class="h-[410px] md:h-[480px] w-full relative"
+      class="h-[410px] md:h-[480px] 2xl:h-[520px] w-full relative"
       :center="center"
       :zoom="14"
       :zoomControl="false"
@@ -43,14 +43,14 @@ const runtimeConfig = useRuntimeConfig().public
 const mapRef = ref<typeof GoogleMap | null>(null);
 const isMapLoaded = ref<boolean>(false);
 
-const center = { lat: 25.023088, lng: 55.2961377 };
+const center = { lat: 25.3067764, lng: 55.3188421 };
 const markers = ref([
   {
-    title: "Damac",
+    title: "Dubai",
     options: {
       position: {
-        lat: 25.023088,
-        lng: 55.2961377,
+        lat: 25.3067764,
+        lng: 55.3188421,
       },
     },
     isOpen: false,

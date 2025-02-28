@@ -131,20 +131,20 @@ const isSubmitClicked = ref<boolean>(false);
 const isSubmittingForm = ref<boolean>(false)
 const preferenceOptions = [
   {
-    label: "4 BR Townhouse",
-    value: "4 BR Townhouse",
+    label: "1 BR Apartment",
+    value: "1 BR Apartment",
   },
   {
-    label: "5 BR Townhouse",
-    value: "5 BR Townhouse",
+    label: "2 BR Apartment",
+    value: "2 BR Apartment",
   },
   {
-    label: "6 BR Villa",
-    value: "6 BR Villa",
+    label: "3 BR Apartment",
+    value: "3 BR Apartment",
   },
   {
-    label: "7 BR Villa",
-    value: "7 BR Villa",
+    label: "4 BR Apartment",
+    value: "4 BR Apartment",
   },
 ];
 
@@ -205,7 +205,7 @@ const onSubmit = async () => {
     try {
       isSubmittingForm.value = true
       await api.post("/Inquiry", {
-        title: "Damac Island LP",
+        title: "Dubai Island LP",
         name: userName.value,
         phone: phoneNumber.value,
         email: userEmail.value || "N/A",

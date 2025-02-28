@@ -35,26 +35,25 @@
         >
           <IconArrowRight class="size-7" />
         </div>
-        <span>Explore More</span>
+        <span>Learn More</span>
       </a>
     </div>
   </BaseContainer>
 </template>
 <script setup lang="ts">
 import useAppStore from '~/stores/AppStore';
-
-import IconTortoise from "~/components/icons/IconTortoise.vue";
-import IconIguanaMarkete from "~/components/icons/IconIguanaMarkete.vue";
 import IconYoga from "~/components/icons/IconYoga.vue";
 import IconFitnessPark from "~/components/icons/IconFitnessPark.vue";
-import IconZipline from "~/components/icons/IconZipline.vue";
 import IconWedding from "~/components/icons/IconWedding.vue";
 import IconAquaDome from "~/components/icons/IconAquaDome.vue";
 import IconJungleSwing from "~/components/icons/IconJungleSwing.vue";
 import IconMiniGolf from "~/components/icons/IconMiniGolf.vue";
-import IconJungleRiver from "~/components/icons/IconJungleRiver.vue";
 import IconAquaPark from "~/components/icons/IconAquaPark.vue";
-import IconWaterfallLagoon from "~/components/icons/IconWaterfallLagoon.vue";
+import IconBeach from "~/components/icons/IconBeach.vue";
+import IconSchool from "~/components/icons/IconSchool.vue";
+import IconMalls from "~/components/icons/IconMalls.vue";
+import IconHospital from "~/components/icons/IconHospital.vue";
+import IconRestaurants from "~/components/icons/IconRestaurants.vue";
 
 const appStore = useAppStore();
 const { openContactForm } = appStore;
@@ -65,12 +64,12 @@ const amenities = [
     text: "Aqua Park",
   },
   {
-    icon: IconWaterfallLagoon,
-    text: "Waterfall Lagoon",
+    icon: IconSchool,
+    text: "School",
   },
   {
-    icon: IconJungleRiver,
-    text: "Jungle River",
+    icon: IconBeach,
+    text: "Near to Beach",
   },
   {
     icon: IconMiniGolf,
@@ -89,8 +88,8 @@ const amenities = [
     text: "⁠Wedding Venue",
   },
   {
-    icon: IconZipline,
-    text: "Zip Line",
+    icon: IconMalls,
+    text: "Malls",
   },
   {
     icon: IconFitnessPark,
@@ -101,12 +100,12 @@ const amenities = [
     text: "Yoga Floating Decks",
   },
   {
-    icon: IconIguanaMarkete,
-    text: "⁠Iguana Park & Fruit Market",
+    icon: IconHospital,
+    text: "Hospital",
   },
   {
-    icon: IconTortoise,
-    text: "Tortoise Garden",
+    icon: IconRestaurants,
+    text: "Restaurants",
   },
 ];
 </script>

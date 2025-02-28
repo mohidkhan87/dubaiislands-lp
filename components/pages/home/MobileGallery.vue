@@ -7,7 +7,7 @@
           class="cursor-pointer h-[190px] md:h-[250px] rounded-3xl overflow-hidden"
         >
           <img
-            src="../../../public/images/gallery/image 1.jpg"
+            src="../../../public/images/gallery/image 1.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
@@ -15,7 +15,7 @@
           class="cursor-pointer h-[240px] md:h-[300px] rounded-3xl overflow-hidden"
         >
           <img
-            src="../../../public/images/gallery/image 2.webp"
+            src="../../../public/images/gallery/image 2.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
@@ -23,7 +23,7 @@
           class="cursor-pointer h-[190px] md:h-[250px] rounded-3xl overflow-hidden"
         >
           <img
-            src="../../../public/images/gallery/image 3.webp"
+            src="../../../public/images/gallery/image 3.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
@@ -31,7 +31,7 @@
           class="cursor-pointer h-[240px] md:h-[300px] rounded-3xl overflow-hidden"
         >
           <img
-            src="../../../public/images/gallery/image 4.jpg"
+            src="../../../public/images/gallery/image 4.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
@@ -42,7 +42,7 @@
           class="cursor-pointer h-[240px] md:h-[300px] rounded-3xl overflow-hidden"
         >
           <img
-            src="../../../public/images/gallery/image 5.jpg"
+            src="../../../public/images/gallery/image 5.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
@@ -50,7 +50,7 @@
           class="cursor-pointer h-[190px] md:h-[250px] rounded-3xl overflow-hidden"
         >
           <img
-            src="../../../public/images/gallery/image 6.jpg"
+            src="../../../public/images/gallery/image 6.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
@@ -58,7 +58,7 @@
           class="cursor-pointer h-[190px] md:h-[250px] rounded-3xl overflow-hidden"
         >
           <img
-            src="../../../public/images/gallery/image 7.webp"
+            src="../../../public/images/gallery/image 7.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
@@ -66,7 +66,7 @@
           class="cursor-pointer h-[190px] md:h-[250px] rounded-3xl overflow-hidden"
         >
           <img
-            src="../../../public/images/gallery/image 8.webp"
+            src="../../../public/images/gallery/image 8.png"
             class="size-full object-cover transform hover:scale-125 transition-all ease-in-out duration-200"
           />
         </div>
@@ -78,7 +78,7 @@
         @click="openContactForm('Gallery', true)"
         class="shine bg-black text-white text-center rounded-full w-[200px] md:w-[250px] py-2 font-semibold cursor-pointer"
       >
-        Explore More
+      Learn More
       </a>
     </div>
   </section>

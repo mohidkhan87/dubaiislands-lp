@@ -9,7 +9,7 @@
             <p class="w-full text-center text-skin-base">Your Request has been Submitted.</p>
             <p class="w-full text-center text-skin-base">Our Agents will get back to you Shortly.</p>
 
-            <NuxtLink to="/damac-islands" aria-label="home-link"
+            <NuxtLink to="/dubai-islands" aria-label="home-link"
                 class="shine px-4 py-2 rounded-lg bg-sky-500 shadow-lg text-white mt-10 mb-16 hover:shadow-xl transition-all duration-150 ease-linear">
                 Back to Home
             </NuxtLink>

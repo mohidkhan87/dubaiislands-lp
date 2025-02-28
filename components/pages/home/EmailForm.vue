@@ -103,7 +103,7 @@ const onSubmit = async () => {
   try {
     isSubmittingForm.value = true;
     await api.post("/Inquiry", {
-      title: "Damac Island LP",
+      title: "Dubai Island LP",
       name: userName.value,
       phone: phoneNumber.value,
       email: userEmail.value || "N/A",

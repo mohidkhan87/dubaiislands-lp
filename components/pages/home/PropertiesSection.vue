@@ -11,7 +11,7 @@
         <div
           class="text-xl md:text-2xl 2xl:text-3xl w-[80%] md:w-[30%] text-center font-medium"
         >
-          Experience the Magic of Damac Islands
+          Experience the Magic of Dubai Islands
         </div>
       </div>
       <div class="mt-10 2xl:mt-14">

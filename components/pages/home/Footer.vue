@@ -3,10 +3,9 @@
     <BaseContainer>
       <div class="flex flex-col md:flex-row items-center justify-between gap-10 text-white">
         <div class="flex flex-col items-center md:items-start gap-4 md:gap-3">
-          <IconLogo fill="#ffffff" class="w-[165px] h-5" />
+          <img src="/images/logo.png" class="w-[165px]" />
           <p class="md:text-lg 2xl:xl font-bold">Where dreams come home.</p>
         </div>
-        <img src="/images/qr.jpeg" alt="footer-logo" class="w-28" />
         <div class=" flex flex-col items-center md:items-end gap-6 md:gap-3">
           <div class="flex items-center gap-3 order-1 md:order-none">
             <div class="bg-white rounded-full p-2">

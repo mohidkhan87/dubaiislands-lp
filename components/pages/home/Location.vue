@@ -14,7 +14,7 @@
         <h2
           class="text-[#181A20] text-2xl lg:text-4xl 2xl:text-5xl font-bold mb-3"
         >
-          Damac Islands Location
+          Dubai Islands Location
         </h2>
         <p
           class="text-[#64697A] md:text-lg 2xl:text-xl font-medium md:font-normal"
@@ -32,16 +32,16 @@
           <span
             class="size-5 2xl:size-6 bg-black rounded-full md:block hidden"
           />
-          Key Nearby Locations
+          Key Nearby Landmarks
         </h3>
         <div
           class="text-[#64697A] md:text-lg 2xl:text-xl font-medium md:font-light"
         >
-          <p>Dubai International Airport - 30 minutes</p>
-          <p>Al Maktoum International Airport - 25 minutes</p>
-          <p>Palm Jumeirah - 25 minutes</p>
-          <p>Burj Al Arab - 25 minutes</p>
-          <p>The Walk JBR Promenade - 25 minutes</p>
+          <p>Gold Souq Metro Station – 10 min</p>
+          <p>Dubai International Airport – 20 min</p>
+          <p>Dubai World Trade Centre – 24 min</p>
+          <p>Downtown Dubai – 24 min</p>
+          <p>Palm Jumeirah – 35 min</p>
         </div>
       </div>
     </div>

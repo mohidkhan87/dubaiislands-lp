@@ -6,15 +6,10 @@
           <h2
             class="font-semibold text-2xl lg:text-4xl 2xl:text-5xl lg:mt-4 mb-4"
           >
-            Damac Islands
+            Dubai Islands
           </h2>
           <p class="text-[#64697A] lg:text-lg 2xl:text-[22px]">
-            DAMAC Islands redefines tropical living in Dubai, inspired by
-            Maldives, Bora Bora, and Bali. Luxury villas and townhouses overlook
-            serene lagoons and lush greenery, blending urban sophistication with
-            paradise. Unique amenities include floating yoga decks, jungle
-            swings, hot springs, and an aqua park. With vibrant community vibes,
-            every day feels like a seamless escape to serenity and adventure.
+            Dubai Islands is a luxurious waterfront development by Prime Developer, featuring five interconnected islands offering premium beachfront living. Located along the Dubai coastline, the project provides a variety of residential options with flexible payment plans and competitive prices. Residents enjoy world-class amenities, including marinas, resorts, retail spaces, and leisure attractions, with easy access to Dubai's key landmarks like Downtown Dubai, Dubai Creek, and Dubai International Airport.
           </p>
 
           <div class="grid grid-cols-3 xl:grid-cols-6 gap-8 font-medium mt-2">
@@ -45,7 +40,7 @@
           </div>
           <div class="flex justify-center lg:justify-start">
             <a
-              @click="openContactForm('Damac Islands', true)"
+              @click="openContactForm('Dubai Islands', true)"
               class="shine bg-[#181A20] mt-11 py-2 lg:py-2 pl-16 lg:pl-2 pr-16 w-fit text-white font-semibold text-lg 2xl:text-2xl flex items-center gap-6 rounded-full cursor-pointer"
             >
               <div
@@ -53,13 +48,13 @@
               >
                 <IconArrowRight />
               </div>
-              <p>Explore More</p>
+              <p>Learn More</p>
             </a>
           </div>
         </div>
-        <div class="">
+        <div>
           <img
-            src="../../../public/images/intro-section.jpg"
+            src="/images/intro-section.png"
             alt="hotel image"
             class="w-full object-contain object-center rounded-xl"
           />

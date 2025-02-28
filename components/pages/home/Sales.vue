@@ -8,22 +8,14 @@
     </BaseContainer>
     </div>
     <BaseContainer>
-      <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-4 xs:gap-6 pt-12 lg:pt-8 pb-8">
+      <div class="grid grid-cols-2 gap-y-4 xs:gap-6 pt-12 lg:pt-8 pb-8">
         <div class="text-center">
-          <h3 class="text-lg xs:text-2xl sm:text-3xl lg:text-4xl 2xl:text-6xl font-semibold">500+</h3>
-          <p class="text-sm xs:text-base 2xl:text-xl font-medium">Units Sold</p>
+          <h3 class="text-lg xs:text-2xl sm:text-3xl lg:text-4xl 2xl:text-6xl font-semibold">1-4</h3>
+          <p class="text-sm xs:text-base 2xl:text-xl font-medium">Bedroom Apartments</p>
         </div>
         <div class="text-center">
-          <h3 class="text-lg xs:text-2xl sm:text-3xl lg:text-4xl 2xl:text-6xl font-semibold">30 M</h3>
-          <p class="text-sm xs:text-base 2xl:text-xl font-medium">Million SQ.FT</p>
-        </div>
-        <div class="text-center">
-          <h3 class="text-lg xs:text-2xl sm:text-3xl lg:text-4xl 2xl:text-6xl font-semibold">4-5</h3>
-          <p class="text-sm xs:text-base 2xl:text-xl font-medium">Bedroom Townhouses</p>
-        </div>
-        <div class="text-center">
-          <h3 class="text-lg xs:text-2xl sm:text-3xl lg:text-4xl 2xl:text-6xl font-semibold">6-7</h3>
-          <p class="text-sm xs:text-base 2xl:text-xl font-medium">Bedroom Villas</p>
+          <h3 class="text-lg xs:text-2xl sm:text-3xl lg:text-4xl 2xl:text-6xl font-semibold">Exclusive</h3>
+          <p class="text-sm xs:text-base 2xl:text-xl font-medium">Payment Plans</p>
         </div>
       </div>
     </BaseContainer>
