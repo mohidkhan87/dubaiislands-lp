@@ -38,22 +38,6 @@
         placeholder="E-mail"
       />
     </div>
-    <div className="flex items-start">
-      <input
-        id="mortgage"
-        type="checkbox"
-        :checked="isFormChecked"
-        v-model="isFormChecked"
-        class="h-4 w-4 text-[#005BC9] border-gray-300 rounded cursor-pointer"
-      />
-      <label
-        htmlFor="mortgage"
-        class="ml-2 text-xs text-[#999B9B] cursor-pointer"
-      >
-        I am Interested in Dubai Real Estate Investment opportunities. Please
-        contact me to provide more details
-      </label>
-    </div>
     <button
       @click="onSubmit"
       type="submit"
