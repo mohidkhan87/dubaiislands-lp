@@ -69,7 +69,6 @@ const { openContactForm } = appStore;
 
 const benefits = [
   "Golden Visa for Property Purchase Over AED 2M",
-  "Dubai Fly In program",
   "Easy Connectivity Across the Emirate",
   "Tax-Free Investment",
   "Hassle-Free Ownership For Home Buyers"
