@@ -42,7 +42,7 @@
       @click="onSubmit"
       type="submit"
       :class="`text-white p-4 shadow rounded-lg bg-[#005BC9] w-full disabled:opacity-70 ${ isFormDisable ? 'cursor-not-allowed' : 'cursor-pointer' }`"
-      :disabled="isFormDisable || !isFormChecked"
+      :disabled="isFormDisable"
     >
       {{ isSubmittingForm ? 'Please Wait...' : 'Speak to us now' }}
     </button>
@@ -59,7 +59,6 @@ const gtm = useGtm();
 
 const userName = ref<string>("");
 const userEmail = ref<string>("");
-const isFormChecked = ref<boolean>(false);
 const phoneNumber = ref<string>("");
 
 const inputKey = ref<number>(0);
