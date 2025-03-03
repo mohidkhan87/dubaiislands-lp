@@ -9,12 +9,17 @@
     <!-- <PriceList /> -->
     <PropertiesSection />
     <!-- <VideoSection /> -->
-    <div>
+    <div class="flex">
       <img
         src="/images/Youtube.webp"
         alt="hotel image"
-        class="w-full h-[calc(100vh-200px)] object-cover object-bottom"
-      />   
+        class="md:w-1/2 h-[calc(100vh-200px)] object-cover object-bottom"
+      />
+      <img
+        src="/images/banner-2.png"
+        alt="map image"
+        class="md:w-1/2 h-[calc(100vh-200px)] object-cover object-bottom"
+      />
     </div>
     <Amenities />
     <!-- <FloorPlans /> -->

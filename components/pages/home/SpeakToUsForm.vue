@@ -55,6 +55,7 @@ import type { PhoneObject } from "~/types/app";
 const { api } = useApi();
 const router = useRouter();
 const appStore = useAppStore();
+const gtm = useGtm();
 
 const userName = ref<string>("");
 const userEmail = ref<string>("");
@@ -98,6 +99,12 @@ const onSubmit = async () => {
       page_url: path.value,
       form_name: `${appStore.formName}`,
     });
+    gtm?.trackEvent({
+      event: 'conversion_event_submit_lead_form',
+      category: 'Lead Submission',
+      action: 'click',
+      value: 2000,
+    })
     appStore.isExploreForm = false;
     appStore.saveToLocalStorage();
 

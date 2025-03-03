@@ -112,6 +112,7 @@ import type { PhoneObject } from "~/types/app";
 const router = useRouter();
 const { api } = useApi();
 const appStore = useAppStore();
+const gtm = useGtm();
 
 const props = defineProps<{
   formName: string;
@@ -216,6 +217,12 @@ const onSubmit = async () => {
         form_name: props.formName,
         country: country.value,
       });
+      gtm?.trackEvent({
+        event: 'conversion_event_submit_lead_form',
+        category: 'Lead Submission',
+        action: 'click',
+        value: 2000,
+      })
       userName.value = "";
       userEmail.value = "";
       phoneNumber.value = "";
