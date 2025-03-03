@@ -221,7 +221,6 @@ const onSubmit = async () => {
         event: 'conversion_event_submit_lead_form',
         category: 'Lead Submission',
         action: 'click',
-        value: 2000,
       })
       userName.value = "";
       userEmail.value = "";
