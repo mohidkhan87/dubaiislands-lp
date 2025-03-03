@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@nuxtjs/google-adsense':
+        specifier: ^3.0.0
+        version: 3.0.0(magicast@0.3.5)(rollup@4.28.1)(vue@3.5.13(typescript@5.7.2))
       '@pinia/nuxt':
         specifier: ^0.5.5
         version: 0.5.5(magicast@0.3.5)(rollup@4.28.1)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))
@@ -605,6 +608,9 @@ packages:
     peerDependencies:
       vue: ^3.3.4
 
+  '@nuxtjs/google-adsense@3.0.0':
+    resolution: {integrity: sha512-fR1rbj6mnfBCWMkVSocPUYX11rGzTwSs1v2sajG6wtXGjXLGRjJSFKSynYHdwO3V4o4xRvtve0W/Db96eiTKmA==}
+
   '@parcel/watcher-android-arm64@2.5.0':
     resolution: {integrity: sha512-qlX4eS28bUcQCdribHkg/herLe+0A9RyYC+mm2PXpncit8z5b3nSqGVzMNR3CmtAOgRutiZ02eIJJgP/b1iEFQ==}
     engines: {node: '>= 10.0.0'}
@@ -900,6 +906,9 @@ packages:
   '@types/resolve@1.20.2':
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
 
+  '@types/web-bluetooth@0.0.20':
+    resolution: {integrity: sha512-g9gZnnXVq7gM7v3tJCWV/qw7w+KeOlSHAhgF9RytFyifW6AF61hdT2ucrYhPq9hLs5JIryeupHV3qGk95dH9ow==}
+
   '@unhead/dom@1.11.14':
     resolution: {integrity: sha512-FaHCWo9JR4h7PCpSRaXuMC6ifXOuBzlI0PD1MmUcxND2ayDl1d6DauIbN8TUf9TDRxNkrK1Ehb0OCXjC1ZJtrg==}
 
@@ -1003,6 +1012,15 @@ packages:
 
   '@vue/shared@3.5.13':
     resolution: {integrity: sha512-/hnE/qP5ZoGpol0a5mDi45bOd7t3tjYJBjsgCsivow7D48cJeV5l05RD82lPqi7gRiphZM37rnhW1l6ZoCNNnQ==}
+
+  '@vueuse/core@10.11.1':
+    resolution: {integrity: sha512-guoy26JQktXPcz+0n3GukWIy/JDNKti9v6VEMu6kV2sYBsWuGiTU8OWdg+ADfUbHg3/3DlqySDe7JmdHrktiww==}
+
+  '@vueuse/metadata@10.11.1':
+    resolution: {integrity: sha512-IGa5FXd003Ug1qAZmyE8wF3sJ81xGLSqTqtQ6jaVfkeZ4i5kS2mwQF61yhVqojRnenVew5PldLyRgvdl4YYuSw==}
+
+  '@vueuse/shared@10.11.1':
+    resolution: {integrity: sha512-LHpC8711VFZlDaYUXEBbFBCQ7GS3dVU9mjOhhMhXP6txTV4EhYQg/KGnQuvt/sPAtoUKq7VVUnL6mVtFoL42sA==}
 
   '@zadigetvoltaire/nuxt-gtm@0.0.13':
     resolution: {integrity: sha512-7SgXtIB8uLdLGJaoUAQSGCSbRnNzplNkNVFKIHaVI4We0vqghstBoVPlJCJ9VdwsfdNyk3/C+Lh1uKpzTrtEuw==}
@@ -3936,6 +3954,18 @@ snapshots:
       - vti
       - vue-tsc
 
+  '@nuxtjs/google-adsense@3.0.0(magicast@0.3.5)(rollup@4.28.1)(vue@3.5.13(typescript@5.7.2))':
+    dependencies:
+      '@nuxt/kit': 3.14.1592(magicast@0.3.5)(rollup@4.28.1)
+      '@vueuse/core': 10.11.1(vue@3.5.13(typescript@5.7.2))
+      defu: 6.1.4
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - magicast
+      - rollup
+      - supports-color
+      - vue
+
   '@parcel/watcher-android-arm64@2.5.0':
     optional: true
 
@@ -4180,6 +4210,8 @@ snapshots:
 
   '@types/resolve@1.20.2': {}
 
+  '@types/web-bluetooth@0.0.20': {}
+
   '@unhead/dom@1.11.14':
     dependencies:
       '@unhead/schema': 1.11.14
@@ -4366,6 +4398,25 @@ snapshots:
       vue: 3.5.13(typescript@5.7.2)
 
   '@vue/shared@3.5.13': {}
+
+  '@vueuse/core@10.11.1(vue@3.5.13(typescript@5.7.2))':
+    dependencies:
+      '@types/web-bluetooth': 0.0.20
+      '@vueuse/metadata': 10.11.1
+      '@vueuse/shared': 10.11.1(vue@3.5.13(typescript@5.7.2))
+      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.2))
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+
+  '@vueuse/metadata@10.11.1': {}
+
+  '@vueuse/shared@10.11.1(vue@3.5.13(typescript@5.7.2))':
+    dependencies:
+      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.2))
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
 
   '@zadigetvoltaire/nuxt-gtm@0.0.13(magicast@0.3.5)(nuxt@3.14.1592(@parcel/watcher@2.5.0)(@types/node@22.10.2)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.28.1)(terser@5.37.0)(typescript@5.7.2)(vite@5.4.11(@types/node@22.10.2)(terser@5.37.0)))(rollup@4.28.1)(vue@3.5.13(typescript@5.7.2))':
     dependencies:

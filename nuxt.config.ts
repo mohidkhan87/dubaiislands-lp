@@ -21,6 +21,7 @@ export default defineNuxtConfig({
       fcApiKey: process.env.NUXT_PUBLIC_FC_API_KEY,
       gtagId: process.env.NUXT_PUBLIC_GTM_ID,
       googleAnalytics: process.env.NUXT_PUBLIC_GOOGLE_ANALYTICS,
+      googleAdsense: process.env.NUXT_PUBLIC_GOOGLE_ADSENSE,
       gtm: {
         id: process.env.NUXT_PUBLIC_GTM_ID!,
       }
