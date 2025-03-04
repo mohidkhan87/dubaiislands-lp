@@ -13,7 +13,7 @@
       <img
         src="/images/Youtube.webp"
         alt="hotel image"
-        class="md:w-1/2 h-[calc(100vh-200px)] object-cover object-bottom"
+        class="hidden md:block md:w-1/2 h-[calc(100vh-200px)] object-cover object-bottom"
       />
       <img
         src="/images/banner-2.png"
