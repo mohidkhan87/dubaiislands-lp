@@ -10,7 +10,7 @@
           <div
             v-for="(pref, idx) in preferenceOptions"
             @click="appStore.setPreference(pref.value)"
-            class="min-w-[177px] text-lg border py-2 2xl:py-3 px-3 flex gap-3 items-center rounded-xl 2xl:rounded-2xl w-[48%] cursor-pointer transition-all ease-in-out duration-200"
+            class="min-w-[177px] text-lg border py-2 2xl:py-3 px-3 flex gap-3 items-center rounded-xl 2xl:rounded-2xl w-[48%] [@media(max-width:415px)]:w-full cursor-pointer transition-all ease-in-out duration-200"
             :class="{
               'border-[#1EBEF1] bg-[#1EBEF1] text-white':
                 appStore.preference === pref.value,
