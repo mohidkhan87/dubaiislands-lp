@@ -1,5 +1,5 @@
 <template>
-  <div class="md:p-6 bg-white w-full rounded-3xl">
+  <div class="p-5 bg-white w-full rounded-3xl">
     <h2 class="text-xl 2xl:text-2xl text-[#181A20] font-normal">
       Register Your Interest
     </h2>

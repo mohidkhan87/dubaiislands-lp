@@ -18,9 +18,9 @@
           <p class="text-sm xs:text-base 2xl:text-xl font-medium">Payment Plans</p>
         </div>
       </div>
-      <div class="block md:hidden">
-        <Form />
-      </div>
     </BaseContainer>
+    <div class="block md:hidden pb-8">
+      <Form />
+    </div>
   </div>
 </template>
