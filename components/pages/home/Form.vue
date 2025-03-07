@@ -1,5 +1,5 @@
 <template>
-  <div class="p-6 bg-white w-full rounded-3xl">
+  <div class="md:p-6 bg-white w-full rounded-3xl">
     <h2 class="text-xl 2xl:text-2xl text-[#181A20] font-normal">
       Register Your Interest
     </h2>
@@ -10,7 +10,7 @@
           <div
             v-for="(pref, idx) in preferenceOptions"
             @click="appStore.setPreference(pref.value)"
-            class="min-w-[177px] text-lg border py-2 2xl:py-3 px-3 flex gap-3 items-center rounded-xl 2xl:rounded-2xl w-[48%] cursor-pointer transition-all ease-in-out duration-200"
+            class="w-full md:min-w-[177px] md:w-[48%] text-lg border py-2 2xl:py-3 px-3 flex gap-3 items-center rounded-xl 2xl:rounded-2xl cursor-pointer transition-all ease-in-out duration-200"
             :class="{
               'border-[#1EBEF1] bg-[#1EBEF1] text-white':
                 appStore.preference === pref.value,
