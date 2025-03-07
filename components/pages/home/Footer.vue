@@ -1,5 +1,5 @@
 <template>
-  <div class="block md:hidden">
+  <div class="block md:hidden px-5 py-8">
     <Form />
   </div>
   <div class="bg-black py-8 pb-24 sm:pb-8 md:py-6 2xl:py-12">
