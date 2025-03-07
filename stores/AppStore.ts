@@ -1,13 +1,13 @@
 const useAppStore = defineStore("appStore",()=>{
     const formName = ref<string>("");
-    const isExploreForm = ref<Boolean>(false);
-    const isContactForm = ref<Boolean>(false);
-    const isEmailForm = ref<Boolean>(false);
-    const isAutoPopupModal = ref<Boolean>(false);
+    const isExploreForm = ref<boolean>(false);
+    const isContactForm = ref<boolean>(false);
+    const isEmailForm = ref<boolean>(false);
+    const isAutoPopupModal = ref<boolean>(false);
     const formPosition = ref('left')
     const preference = ref('1 BR Apartment')
-    const isFormSubmitted = ref<Boolean>(false);
-    const showAutoPopup = ref<Boolean>(true);
+    const isFormSubmitted = ref<boolean>(false);
+    const showAutoPopup = ref<boolean>(true);
 
     const openExploreForm = (name:string, isOpen: boolean, position: string = 'left') => {
         formName.value = name;

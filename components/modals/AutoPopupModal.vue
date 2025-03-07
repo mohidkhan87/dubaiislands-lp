@@ -5,10 +5,10 @@
   <Transition name="fade">
     <div
       v-if="appStore.isAutoPopupModal"
-      class="fixed flex items-center justify-center inset-0"
+      class="fixed flex items-center justify-center inset-0 w-[calc(100%-40px)] mx-auto"
     >
       <div
-        v-click-outside="() => appStore.isAutoPopupModal = false"
+        v-click-outside="close"
         class="w-full sm:w-[485px] bg-white py-5 relative"
       >
         <button
