@@ -1,11 +1,11 @@
 <template>
   <div class="p-5 bg-white w-full rounded-3xl">
-    <h2 class="text-xl 2xl:text-2xl text-[#181A20] font-normal">
+    <h2 class="text-center md:text-left text-xl 2xl:text-2xl text-[#181A20] font-medium md:font-normal">
       Register Your Interest
     </h2>
     <div class="mt-1 2xl:mt-3">
       <div>
-        <h3 class="text-lg 2xl:text-xl mb-2">Select your Preference</h3>
+        <h3 class="text-center md:text-left text-base md:text-lg 2xl:text-xl mb-2">Select your Preference</h3>
         <div class="flex flex-wrap gap-2">
           <div
             v-for="(pref, idx) in preferenceOptions"
