@@ -1,5 +1,5 @@
 <template>
-  <div class="h-[calc(100vh-100px)] sm:h-screen w-full relative">
+  <div class="sm:min-h-screen w-full relative">
     <img
       src="/images/banner.webp"
       class="absolute inset-0 -z-10 size-full object-cover object-bottom"
