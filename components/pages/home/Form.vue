@@ -95,7 +95,7 @@
         </div>
         <div class="w-full mt-1">
           <button
-            id="submit-button"
+            id="form-submit-button"
             @click="onSubmit"
             :class="`w-full bg-[#1EBEF1] text-white hover:shadow-md py-3 rounded-xl hover:bg-[#1EA9F9]`"
           >

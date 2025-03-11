@@ -9,7 +9,7 @@
         class="w-full py-5 relative"
       >
         <button
-          id="close-button"
+          id="email-modal-close-button"
           type="button"
           @click="close"
           class="cursor-pointer absolute right-4 top-5"

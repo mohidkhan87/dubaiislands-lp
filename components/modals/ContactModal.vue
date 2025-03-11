@@ -12,7 +12,7 @@
         class="w-full sm:w-[485px] bg-white py-5 relative"
       >
         <button
-          id="close-button"
+          id="contact-modal-close-button"
           type="button"
           @click="close"
           class="cursor-pointer absolute right-3 top-5"
