@@ -1,11 +1,17 @@
 <template>
   <div class="p-5 bg-white w-full rounded-3xl">
-    <h2 class="text-center md:text-left text-xl 2xl:text-2xl text-[#181A20] font-medium md:font-normal">
+    <h2
+      class="text-center md:text-left text-xl 2xl:text-2xl text-[#181A20] font-medium md:font-normal"
+    >
       Register Your Interest
     </h2>
     <div class="mt-1 2xl:mt-3">
       <div>
-        <h3 class="text-center md:text-left text-base md:text-lg 2xl:text-xl mb-2">Select your Preference</h3>
+        <h3
+          class="text-center md:text-left text-base md:text-lg 2xl:text-xl mb-2"
+        >
+          Select your Preference
+        </h3>
         <div class="flex flex-wrap gap-2">
           <div
             v-for="(pref, idx) in preferenceOptions"
@@ -99,7 +105,7 @@
             @click="onSubmit"
             :class="`w-full bg-[#1EBEF1] text-white hover:shadow-md py-3 rounded-xl hover:bg-[#1EA9F9]`"
           >
-            {{ isSubmittingForm ? 'Please Wait...' : 'Submit' }}
+            {{ isSubmittingForm ? "Please Wait..." : "Submit" }}
           </button>
         </div>
       </div>
@@ -109,28 +115,24 @@
 <script setup lang="ts">
 import useAppStore from "~/stores/AppStore";
 import type { PhoneObject } from "~/types/app";
-
 const router = useRouter();
 const { api } = useApi();
 const appStore = useAppStore();
 const gtm = useGtm();
-
 const props = defineProps<{
   formName: string;
 }>();
-
 const userName = ref<string>("");
 const userEmail = ref<string>("");
 const phoneNumber = ref<string>("");
 const path = ref<string>("");
 const inputKey = ref<number>(0);
 const isValidPhoneNumber = ref<boolean>();
-const country = ref<string>("");
 const nameErrorMessage = ref<string>("");
 const emailErrorMessage = ref<string>("");
 const dialCode = ref<string>("");
 const isSubmitClicked = ref<boolean>(false);
-const isSubmittingForm = ref<boolean>(false)
+const isSubmittingForm = ref<boolean>(false);
 const preferenceOptions = [
   {
     label: "1 BR Apartment",
@@ -149,7 +151,6 @@ const preferenceOptions = [
     value: "4 BR Apartment",
   },
 ];
-
 const bindProps = {
   validCharactersOnly: true,
   required: true,
@@ -157,23 +158,20 @@ const bindProps = {
     showDialCode: true,
   },
 };
-
 const isFormDisable = computed(() => {
   return !(
     userName.value &&
     !nameErrorMessage.value &&
+    !emailErrorMessage.value &&
     isValidPhoneNumber.value
   );
 });
-
 const onValidatePhoneNumber = (phoneObject: PhoneObject) => {
   isValidPhoneNumber.value = phoneObject.valid;
-  country.value = phoneObject.country || phoneObject.countryCode || "";
 };
 const validateName = () => {
   isSubmitClicked.value = false;
   const nameWithoutSpaces = userName.value.replace(/\s/g, "");
-
   if (!userName.value.trim()) {
     nameErrorMessage.value = "Please enter your name.";
   } else if (!/^[A-Za-z\s]+$/.test(userName.value)) {
@@ -187,7 +185,6 @@ const validateName = () => {
 const validateEmail = () => {
   isSubmitClicked.value = false;
   const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-
   if (userEmail.value && !emailPattern.test(userEmail.value)) {
     emailErrorMessage.value = "Please enter a valid email address.";
   } else {
@@ -200,12 +197,11 @@ const keepDialCode = () => {
     phoneNumber.value = dialCode.value;
   }
 };
-
 const onSubmit = async () => {
   isSubmitClicked.value = true;
   if (!isFormDisable.value) {
     try {
-      isSubmittingForm.value = true
+      isSubmittingForm.value = true;
       await api.post("/Inquiry", {
         title: "Dubai Island LP",
         name: userName.value,
@@ -216,13 +212,13 @@ const onSubmit = async () => {
         source: "19",
         page_url: path.value,
         form_name: props.formName,
-        country: country.value,
+        language: "English",
       });
       gtm?.trackEvent({
-        event: 'conversion_event_submit_lead_form',
-        category: 'Lead Submission',
-        action: 'click',
-      })
+        event: "conversion_event_submit_lead_form",
+        category: "Lead Submission",
+        action: "click",
+      });
       userName.value = "";
       userEmail.value = "";
       phoneNumber.value = "";
