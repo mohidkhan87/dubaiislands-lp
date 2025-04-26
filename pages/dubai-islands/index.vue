@@ -60,11 +60,11 @@ useHead({
   link: [
     {
       rel: "canonical",
-      href: "https://dubai-property-offer.com",
+      href: "https://dubai-islands-2.dubaiprojectspromotion.com",
     },
     {
       rel: "alternate",
-      href: "https://dubai-property-offer.com",
+      href: "https://dubai-islands-2.dubaiprojectspromotion.com",
       hreflang: 'x-default',
     },
   ],
