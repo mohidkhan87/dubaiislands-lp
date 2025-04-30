@@ -5,7 +5,6 @@
       class="fixed flex inset-0 z-50 bg-white"
     >
       <div
-        v-click-outside="() => (appStore.isEmailForm = false)"
         class="w-full py-5 relative"
       >
         <button

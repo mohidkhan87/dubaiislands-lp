@@ -55,11 +55,11 @@ useHead({
   link: [
     {
       rel: "canonical",
-      href: "https://dubai-islands-2.dubaiprojectspromotion.com/thankyou",
+      href: "http://dubaiprojectspromotion.com/thankyou",
     },
     {
       rel: "alternate",
-      href: "https://dubai-islands-2.dubaiprojectspromotion.com/thankyou",
+      href: "http://dubaiprojectspromotion.com/thankyou",
       hreflang: 'x-default',
     },
   ],

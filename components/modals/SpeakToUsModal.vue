@@ -13,7 +13,6 @@
       ]"
     >
       <div
-        v-click-outside="() => (appStore.isExploreForm = false)"
         class="w-[400px] bg-white py-5 relative"
       >
         <button

@@ -8,7 +8,6 @@
       class="fixed flex items-center justify-center inset-0"
     >
       <div
-        v-click-outside="() => appStore.isContactForm = false"
         class="w-full sm:w-[485px] bg-white py-5 relative"
       >
         <button
