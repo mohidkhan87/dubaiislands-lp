@@ -47,6 +47,12 @@
               <span>High Capital Appreciation</span>
               <span class="pt-2">*</span>⁠
             </div>
+            <button
+              @click="openContactForm('Hero Section', true)"
+              class="block md:hidden cursor-pointer text-sm xl:text-base py-2 2xl:py-3 px-8 rounded-xl 2xl:rounded-2xl bg-[#1EBEF1] text-white mt-4"
+            >
+              Inquire Now
+            </button>
           </div>
         </div>
         <div class="w-[485px] hidden md:block">
@@ -56,3 +62,9 @@
     </BaseContainer>
   </div>
 </template>
+<script setup lang="ts">
+import useAppStore from "~/stores/AppStore";
+
+const appStore = useAppStore();
+const { openContactForm } = appStore;
+</script>
